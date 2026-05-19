@@ -109,3 +109,17 @@ div > .wiecej {
 .wiecej > img {
     width: 100%;
 }
+#teslaLink{
+    color: blue;
+    text-decoration: none;
+}
+#teslaLink:visited{
+    color: purple;
+}
+#teslaLink:hover{
+    color: green;
+    text-decoration: underline;
+}
+#teslaLink:active{
+    color:red;
+}
