@@ -1,0 +1,176 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+    color:#222;
+    line-height: 1.6;
+}
+
+
+.site-header{
+    background-color: darkred;
+    color:white;
+    text-align:center;
+    padding:30px 15px;
+}
+
+.podtytul{
+    margin-top:10px;
+    font-size: 14px;
+    opacity:0.9;
+}
+
+
+nav{
+    width:220px;
+    background: gray;
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    padding-top:120px;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li a{
+    display:block;
+    color:white;
+    padding:14px;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    background:#610101;
+}
+
+nav ul li a.active{
+    background:#b91111;
+}
+
+nav ul li a:active{
+    background:#140101;
+}
+
+
+
+main{
+    width:70%;
+    max-width:1000px;
+    margin:30px auto;
+    margin-left:280px;
+}
+
+
+
+section{
+    background:white;
+    padding:20px;
+    margin-bottom:25px;
+    border-radius:8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.08);
+}
+
+h2{
+    color:#8b0000;
+    margin-bottom:15px;
+}
+
+
+/* TABLE */
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+    font-size:14px;
+}
+
+caption{
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+td, th{
+    border:1px solid #999;
+    padding:8px;
+}
+
+th{
+    background:#8b0000;
+    color:white;
+}
+
+tbody tr:hover{
+    background:#ffe4e1;
+}
+
+.naglowek-dnia{
+    background:#610101;
+    color:white;
+    text-align:center;
+    font-size:15px;
+}
+
+.wazne{
+    background:#fff5f5;
+}
+
+
+
+a{
+    color:#8b0000;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+
+
+.lista-uporzadkowana{
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.lista-numerowana{
+    margin-left:20px;
+    margin-top:10px;
+}
+
+
+
+.karta-dnia{
+    margin-top:20px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    overflow:hidden;
+}
+
+.kartaNaglowek{
+    background:#8b0000;
+    color:white;
+    padding:10px;
+    font-weight:bold;
+}
+
+.kartatresc{
+    padding:15px;
+    background:white;
+}
+
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-left:220px;
+    font-size:14px;
+}
